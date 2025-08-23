@@ -1,5 +1,4 @@
 #!/bin/bash
-
 ##########################################################################################
 # Script Name: clickhouse_table_row_counter.sh
 # Description:
