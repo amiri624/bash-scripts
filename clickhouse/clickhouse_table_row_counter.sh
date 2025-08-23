@@ -29,7 +29,6 @@
 # Version: 1.0
 ##########################################################################################
 
-
 # Define your ClickHouse connection details
 CH_HOST="YOUR SERVER IP OR NAME"
 CH_PORT="9000"
