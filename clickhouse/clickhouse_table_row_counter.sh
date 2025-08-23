@@ -32,7 +32,6 @@
 # Define your ClickHouse connection details
 CH_HOST="YOUR SERVER IP OR NAME"
 CH_PORT="9000"
-
 # Output file
 OUTPUT_FILE="database_rows_count.csv"
 
@@ -40,7 +39,6 @@ OUTPUT_FILE="database_rows_count.csv"
 LOG_DIR="/var/log/clickhouse_stats"
 mkdir -p $LOG_DIR
 LOG_FILE="$LOG_DIR/clickhouse_stats_$(date +'%Y%m%d').log"
-
 # Function to write logs
 log() {
     echo "[$(date +'%Y-%m-%d %H:%M:%S')] $1" | tee -a $LOG_FILE
