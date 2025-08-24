@@ -34,7 +34,6 @@ CH_HOST="YOUR SERVER IP OR NAME"
 CH_PORT="9000"
 # Output file
 OUTPUT_FILE="database_rows_count.csv"
-
 # Log file setup
 LOG_DIR="/var/log/clickhouse_stats"
 mkdir -p $LOG_DIR
