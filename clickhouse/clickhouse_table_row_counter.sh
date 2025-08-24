@@ -54,7 +54,6 @@ log "CSV header written to $OUTPUT_FILE."
 # Get a list of databases
 log "Retrieving list of databases."
 DATABASES=$(clickhouse-client --host "$CH_HOST" --port "$CH_PORT" --query "SHOW DATABASES" | grep -v system)
-
 # Read user IDs from user.txt file
 log "Reading user IDs from user.txt."
 USER_IDS=$(cat user.txt)
