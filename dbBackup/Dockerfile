@@ -1,4 +1,3 @@
-
 FROM debian:11
 RUN apt-get update && apt-get install -y vim bash netcat-openbsd redis default-mysql-client s3cmd wget curl postgresql-client p7zip-full
 RUN wget https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian11-x86_64-100.5.3.deb -O mongodb-database-tools.deb
