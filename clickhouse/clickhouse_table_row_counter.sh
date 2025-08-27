@@ -43,7 +43,6 @@ log() {
 }
 # Start of the script log
 log "Starting ClickHouse table row counter script."
-
 # Write header to the output file
 echo "User ID,Database,Table,Count" > "$OUTPUT_FILE"
 log "CSV header written to $OUTPUT_FILE."
