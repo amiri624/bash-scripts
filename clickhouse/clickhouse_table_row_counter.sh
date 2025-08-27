@@ -41,7 +41,6 @@ LOG_FILE="$LOG_DIR/clickhouse_stats_$(date +'%Y%m%d').log"
 log() {
     echo "[$(date +'%Y-%m-%d %H:%M:%S')] $1" | tee -a $LOG_FILE
 }
-
 # Start of the script log
 log "Starting ClickHouse table row counter script."
 
