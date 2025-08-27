@@ -307,7 +307,6 @@ etcd_backup(){
         send_to_object $OUTPUT
         rm -f $OUTPUT
 }
-
 main(){
         log "start backup process"
         check_env
