@@ -44,5 +44,3 @@ fi
 
 echo "reboot the system"
 sync; sync; sync; reboot
-
-
