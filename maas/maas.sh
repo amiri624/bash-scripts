@@ -17,7 +17,6 @@ MAAS_ADMIN_EMAIL="milad@gmail.com"
 POSTGRES_VERSION=16+257build1.1
 POSTGRES_CONFIG_PATH="/etc/postgresql/16/main/pg_hba.conf"
 
-
 # Install Pacakges
 apt update
 #apt dist-upgrade -y
