@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Check for root
-
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
   exit
