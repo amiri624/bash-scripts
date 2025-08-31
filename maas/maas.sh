@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Check for root
 
 if [ "$EUID" -ne 0 ]
