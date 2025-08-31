@@ -33,7 +33,6 @@ echo "host    $MAAS_DB_NAME    $MAAS_DB_USER    0/0     md5" >> "$POSTGRES_CONFI
 sudo maas init region+rack --database-uri "postgres://$MAAS_DB_USER:$MAAS_DB_PASS@localhost/$MAAS_DB_NAME" --maas-url "$MAAS_URI"
 
 # Setup admin user and credentials
-
 echo "Creating admin user"
 sudo maas createadmin --username "$MAAS_ADMIN_USER" --password "$MAAS_ADMIN_PASS" --email "$MAAS_ADMIN_EMAIL"
 if [ $? -eq 0 ]; then
