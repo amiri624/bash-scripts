@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 ##########################################################################################
 # Script Name: dynamic_ip_manager.sh
 # Description:
